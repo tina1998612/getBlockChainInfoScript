@@ -1,7 +1,7 @@
 # Overview 
 This script is to be used in the geth console to get the information in a blockchain
 
-#Usage 
+# Usage 
 1. Open geth console connecting to your node rpc/ipc address. For example, if the default geth node port is 8545, type `geth attch http://localhost:8545` to connect to the node and open geth console
 2. In geth console, type `loadScript('path_of_this_script')` to load this script. It will return true if the script is loaded successfully
 3. As defined in the script, run `init()` for intitialization and then run `getInfo()` to get the blockchain information. Everytime the blockchain is updated, run `getInfo()` again to retrieve the lastest data.
